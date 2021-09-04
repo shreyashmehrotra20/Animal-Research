@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+.AnimalMod {
+  background-color: rgb(4, 47, 82);
+  width: 100vw;
+  height: 100vh;
+  margin-top: 30vw;
+}
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(224, 191, 191);
+  padding: 0.2rem;
+  margin: 2rem 0;
+  background: rgba(255, 51, 153, 0.05);
+}
+
+.animals p {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(253, 247, 247);
+  margin: 2rem 8bw;
+  background: rgba(255, 51, 153, 0.05);
+  line-height: 6vh;
+}
+
+.animals .box-container .box {
+  position: relative;
+  text-align: center;
+  padding-top: 6rem;
+  overflow: hidden;
+}
+
+.animals .box-container .box .image img {
+  height: 10rem;
+}
+
+.animals .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+
+.animals .box-container .box .contentM {
+  padding: 1rem;
+  text-align: center;
+}
+
+.animals .box-container .box .contentM h3 {
+  font-size: 2.5rem;
+  color: rgb(252, 252, 252);
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 40vw 40vw;
+  grid-gap: 20px;
+  background-color: #042f52;
+  padding: 10px;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  padding-top: 2rem;
+  overflow: hidden;
+  width: 25vw;
+}

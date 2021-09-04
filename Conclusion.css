@@ -1,0 +1,30 @@
+.Conclusion {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(52, 130, 194);
+  margin-top: 48vw;
+}
+.last h1 {
+  padding-top: 10vh;
+  font-size: 10vh;
+}
+.last {
+  text-align: center;
+  margin-top: 7vw;
+}
+.lastsephle {
+  display: flex;
+  align-items: center;
+  gap: 3vh;
+}
+.lastsephle p {
+  font-size: 3.2vh;
+  margin-top: 18vh;
+  width: 45vw;
+}
+.icon {
+  width: 40vw;
+  margin-left: 10vh;
+  margin-top: 17vh;
+  border-radius: 10vh;
+}
